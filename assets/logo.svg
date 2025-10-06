@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 200 50">
+  <rect width="200" height="50" rx="6" fill="none"/>
+  <g transform="translate(8,6)">
+    <polygon points="0,34 16,0 32,34" fill="#F9A825" />
+    <rect x="36" y="8" width="2" height="24" fill="#0A2342" />
+    <text x="48" y="25" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#0A2342" font-weight="700">DWIJA</text>
+    <text x="48" y="40" font-family="Poppins, Arial, sans-serif" font-size="10" fill="#0A2342">INFRA</text>
+  </g>
+</svg>
