@@ -95,11 +95,11 @@
       <!-- Mobile menu (simple) -->
       <div x-data="{ open:false }" x-on:toggle-mobile.window="open = !open" x-show="open" class="md:hidden border-t bg-white">
         <div class="px-4 pt-2 pb-4 space-y-2">
-          <a href="#about" class="block py-2 text-gray-700 hover:text-teal-700 transition">About</a>
-          <a href="#services" class="block py-2 text-gray-700 hover:text-teal-700 transition">Services</a>
-          <a href="#projects" class="block py-2 text-gray-700 hover:text-teal-700 transition">Projects</a>
-          <a href="#contact" class="block py-2 text-gray-700 hover:text-teal-700 transition">Contact</a>
-          <a href="#contact" class="block text-white bg-amber-500 px-4 py-2 rounded-lg mt-3 text-center font-semibold hover:bg-amber-600 transition">Get a Quote</a>
+          <a href="#about" @click="open = false" class="block py-2 text-gray-700 hover:text-teal-700 transition">About</a>
+          <a href="#services" @click="open = false" class="block py-2 text-gray-700 hover:text-teal-700 transition">Services</a>
+          <a href="#projects" @click="open = false" class="block py-2 text-gray-700 hover:text-teal-700 transition">Projects</a>
+          <a href="#contact" @click="open = false" class="block py-2 text-gray-700 hover:text-teal-700 transition">Contact</a>
+          <a href="#contact" @click="open = false" class="block text-white bg-amber-500 px-4 py-2 rounded-lg mt-3 text-center font-semibold hover:bg-amber-600 transition">Get a Quote</a>
         </div>
       </div>
     </nav>
