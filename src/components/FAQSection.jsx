@@ -97,13 +97,12 @@ const FAQSection = () => {
                   
                   <motion.div
                     initial={false}
-                    className="text-slate-600 leading-relaxed md:leading-relaxed text-sm md:text-base mt-3 md:mt-4"
+                    className="text-slate-600 leading-relaxed md:leading-relaxed text-sm md:text-base mt-3 md:mt-4 overflow-hidden"
                     animate={{
                       height: isOpen ? 'auto' : 0,
                       opacity: isOpen ? 1 : 0,
                     }}
                     transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                    className="overflow-hidden"
                   >
                     <p className="text-slate-600 leading-[1.75] mt-4 pt-4 border-t border-slate-200">
                       {faq.answer}
