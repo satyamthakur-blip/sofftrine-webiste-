@@ -1,3 +1,21 @@
+# Softtrine Robots.txt
+# Updated: January 27, 2026
+
+# Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://dwijainfra.com/sitemap.xml
+
+# Disallow admin and internal paths (if any in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl delay for all bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://softtrine.com/sitemap.xml
+
+# Additional sitemaps (for future use)
+# Sitemap: https://softtrine.com/sitemap-blog.xml
+# Sitemap: https://softtrine.com/sitemap-services.xml
